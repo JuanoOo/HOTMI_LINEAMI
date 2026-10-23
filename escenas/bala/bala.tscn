@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://0jn14s6u0fbf"]
+
+[ext_resource type="Script" uid="uid://dpy4kvwwuh4ge" path="res://escenas/bala/bala.gd" id="1_if54r"]
+
+[node name="Bala" type="Node2D" unique_id=1473976824]
+script = ExtResource("1_if54r")
+
+[node name="Tracer" type="Line2D" parent="." unique_id=609025285]
+points = PackedVector2Array(0, 0, 1, 0)
+width = 2.5
+default_color = Color(0.99215686, 1, 0.023529412, 0.93333334)
